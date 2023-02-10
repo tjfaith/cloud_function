@@ -2,6 +2,6 @@ FROM node:13-slim
 
 WORKDIR /app
 
-ADD ./app
+COPY  ./
 
-CMD node server.js
+CMD ['node', 'server.js']
